@@ -1,0 +1,53 @@
+/*
+Theme Name: sample_theme
+*/
+input[type=radio]+label:before {
+    content: "";
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+input[type=radio]:checked+label::before {
+    background-color: #f7c0d6;
+    box-sizing: border-box;
+}
+
+input[type=radio][value="1"]+label:before {
+    background-image: url('http://www.irasuto.cfbx.jp/wp-content/themes/sample_theme/images/stamp/22789936.png');
+}
+
+input[type=radio][value="2"]+label:before {
+    background-image: url('http://www.irasuto.cfbx.jp/wp-content/themes/sample_theme/images/stamp/22789937.png');
+}
+
+input[type=radio][value="3"]+label:before {
+    background-image: url('http://www.irasuto.cfbx.jp/wp-content/themes/sample_theme/images/stamp/22789938.png');
+}
+
+input[type=radio][value="4"]+label:before {
+    background-image: url('http://www.irasuto.cfbx.jp/wp-content/themes/sample_theme/images/stamp/22789939.png');
+}
+
+input[type=radio][value="5"]+label:before {
+    background-image: url('http://www.irasuto.cfbx.jp/wp-content/themes/sample_theme/images/stamp/227899310.png');
+}
+
+input[type=radio][value="6"]+label:before {
+    background-image: url('http://www.irasuto.cfbx.jp/wp-content/themes/sample_theme/images/stamp/227899311.png');
+}
+
+input[type=radio][value="7"]+label:before {
+    background-image: url('http://www.irasuto.cfbx.jp/wp-content/themes/sample_theme/images/stamp/227899312.png');
+}
+
+input[type=radio][value="8"]+label:before {
+    background-image: url('http://www.irasuto.cfbx.jp/wp-content/themes/sample_theme/images/stamp/227899313.png');
+}
+
+input[type=radio] {
+    display: none;
+}
